@@ -9,7 +9,7 @@ const Header = () => (
 
 const Profile = ({ name }) => (
   <View style={styles.profileContainer}>
-    <Image source={{ uri: 'https://via.placeholder.com/100' }} style={styles.profileImage} />
+    <Image source={{ uri: 'https://picsum.photos/200' }} style={styles.profileImage} />
     <Text style={styles.profileName}>{name}</Text>
   </View>
 );
